@@ -1,5 +1,6 @@
 package com.example.unio.di
 
+import com.example.unio.BuildConfig
 import com.example.unio.data.remote.AuthApi
 import com.example.unio.data.remote.AuthInterceptor
 import dagger.Module
@@ -31,7 +32,7 @@ object NetworkModule {
     @Singleton
     fun provideRetrofit(client: OkHttpClient): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://10.0.2.2:8080/")
+            .baseUrl(BuildConfig.BASE_URL)
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
