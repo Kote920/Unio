@@ -1,0 +1,34 @@
+# Secrets
+firebase-service-account.json
+*.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.xcuserdata/
+xcuserdata/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+*.class
+
+# Gradle
+.gradle/
+.kotlin/
+local.properties
+
+# Android
+android/app/release/
+android/.cxx/
+
+# iOS
+ios/**/DerivedData/
+ios/**/*.xcworkspace/xcuserdata/
+
+# Claude
+.claude/

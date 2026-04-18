@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11181732355",
+    "project_id": "unio-3e210",
+    "storage_bucket": "unio-3e210.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11181732355:android:f055b211d4f02a74e31436",
+        "android_client_info": {
+          "package_name": "com.example.unio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRK3WA90QRCbDfPnG2QykTGUE6hIHAPgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

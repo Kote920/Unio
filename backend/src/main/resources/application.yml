@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: unio-backend
+  profiles:
+    active: dev
