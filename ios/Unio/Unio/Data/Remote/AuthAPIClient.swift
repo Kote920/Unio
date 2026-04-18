@@ -3,7 +3,11 @@ import Foundation
 final class AuthAPIClient {
     private let baseURL: URL
 
+    #if DEBUG
     init(baseURL: URL = URL(string: "http://localhost:8080")!) {
+    #else
+    init(baseURL: URL = URL(string: "https://unio-b329.onrender.com")!) {
+    #endif
         self.baseURL = baseURL
     }
 
